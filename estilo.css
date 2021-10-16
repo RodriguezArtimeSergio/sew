@@ -1,0 +1,21 @@
+/* Especificidad: 001*/
+body {
+    font-family: Tahoma, sans-serif;
+    color: #818181;
+   background-color:#fff;
+    }
+
+    img {
+        width: 50%; /*Problema que se muestre más grande que el tamaño real, se pixelará*/
+        height: auto;
+      }
+
+   /* Especificidad: 001*/
+   h1 {
+   color: #fff;
+   background-color:#FF5733;
+   padding: 2em;
+    text-transform: uppercase;
+    text-align: center;
+   }
+   
