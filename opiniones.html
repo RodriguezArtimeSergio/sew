@@ -27,25 +27,25 @@
             <label for="nombre">Nombre:</label>
             <input type="text" placeholder="Escribe tu nombre" maxlength="12" name="nombre" id="nombre">
             <br>
-            <label for="nombre">Correo electronico:</label>
+            <label for="email">Correo electronico:</label>
             <input type="email" placeholder="Escribe tu email" maxlength="40" name="email" id="email">
 
             <fieldset>
                 <legend>Género: </legend>
-            
-                <label><input type="radio" name="empleoactual" value="mujer"> Hombre</label><br>
-            
-                <label><input type="radio" name="empleoactual" value="hombre"> Mujer</label><br>
+                <label><input type="radio" name="empleoactual" value="mujer" id="mujer"> Mujer</label><br>
+                <label><input type="radio" name="empleoactual" value="hombre" id="hombre"> Hombre</label><br>
             </fieldset>
-            <p>
-            <label>Ocupación</label>
+            
+            <fieldset>
+                <legend>Ocupación: </legend>
             <select>
                 <option value="estudiante">Estudiante</option>
                 <option value="profesor">Profesor</option>
                 <option value="otro">Otro</option>
             </select>
-            </p>
-            <input type="button" value="Enviar">
+            </fieldset>
+
+            <input type="submit" value="Enviar">
         </form>
         </section>
     </body>
