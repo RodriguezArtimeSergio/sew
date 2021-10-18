@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+<!-- Datos que describen el documento -->
+<meta charset="UTF-8" />
+<meta name="description" content="Sitios web donde puedes saber más a cerca de Rasmus Lerdorf">
+<meta name="keywords" content="Rasmus, Lerdorf, PhP, redes, web">
+<meta name="author" content="Sergio Rodriguez Artime">
+<meta name ="viewport" content ="width=device-width, initial scale=1.0" />
+<title>Rasmus Lerdorf</title>
+<link rel="stylesheet" type="text/css" href="estilo.css" />
+</head>
+
+    <body>
+        <header>
+            <h1> Rasmus Lerdorf</h1>
+        </header>
+        <nav>
+            <a href = "index.html">Inicio</a>
+            <a href = "proyectos.html">Proyectos</a>
+            <a>Enlaces de interés</a>
+        </nav>
+        <section>
+            <h2> Formulario de opinión</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" placeholder="Escribe tu nombre" maxlength="12" name="nombre" id="nombre">
+            <br>
+            <label for="nombre">Correo electronico:</label>
+            <input type="email" placeholder="Escribe tu email" maxlength="40" name="email" id="email">
+
+            <fieldset>
+                <legend>Género: </legend>
+            
+                <label><input type="radio" name="empleoactual" value="mujer"> Hombre</label><br>
+            
+                <label><input type="radio" name="empleoactual" value="hombre"> Mujer</label><br>
+            </fieldset>
+            <p>
+            <label>Ocupación</label>
+            <select>
+                <option value="estudiante">Estudiante</option>
+                <option value="profesor">Profesor</option>
+                <option value="otro">Otro</option>
+            </select>
+            </p>
+            <input type="button" value="Enviar">
+        </form>
+        </section>
+    </body>
+</html>
