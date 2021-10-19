@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+<!-- Datos que describen el documento -->
+<meta charset="UTF-8" />
+<meta name="description" content="Encuesta para comprobar todo lo que se sabe de Rasmus">
+<meta name="keywords" content="Rasmus, Lerdorf, PhP, redes, web">
+<meta name="author" content="Sergio Rodriguez Artime">
+<meta name ="viewport" content ="width=device-width, initial scale=1.0" />
+<title>Rasmus Lerdorf</title>
+<link rel="stylesheet" type="text/css" href="estilo.css" />
+</head>
+
+    <body>
+        <header>
+            <h1> Rasmus Lerdorf</h1>
+        </header>
+        <nav>
+            <a href = "index.html">Inicio</a>
+            <a href = "proyectos.html">Proyectos</a>
+            <a>Encuesta</a>
+            <a href = "enlaces.html">Enlaces de interés</a>
+        </nav>
+        <section>
+            <h2> Formulario de opinión</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" placeholder="Escribe tu nombre" maxlength="12" name="nombre" id="nombre">
+            <br>
+            <label for="email">Correo electronico:</label>
+            <input type="email" placeholder="Escribe tu email" maxlength="40" name="email" id="email">
+
+            <fieldset>
+                <legend>Género: </legend>
+                <label for="mujer">Mujer</label>
+                <input type="radio" value="mujer" id="mujer">
+                <br>
+                <label for="hombre">Hombre</label>
+                <input type="radio" value="hombre" id="hombre">
+            </fieldset>
+            
+            <fieldset>
+                <legend>¿Dónde has leído sobre Rasmus Lerdorf? </legend>
+                <label for="wikipedia">Wikipedia</label>
+                <input type="checkbox" value="wikipedia" id="wikipedia">
+                <br>
+                <label for="blog">Su blog personal</label>
+                <input type="checkbox" value="blog" id="blog">
+                <br>
+                <label for="webalumno">Esta página web</label>
+                <input type="checkbox" value="webalumno" id="webalumno">
+            </fieldset>
+
+            <label for="opinion">Opinión de él y sus descubrimientos:</label>
+            <br>
+            <textarea id="opinion" name="opinion" rows="4" cols="50"> </textarea>
+
+            <input type="submit" value="Enviar">
+        </form>
+        </section>
+        <footer>
+            <img src= "images/HTML5.png" alt= "HTML5 válido!" />
+                <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                    <img style="border:0;width:88px;height:31px"
+                        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                        alt="¡CSS Válido!" />
+                    </a>
+        </footer>
+    </body>
+</html>

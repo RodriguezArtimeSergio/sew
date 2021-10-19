@@ -1,28 +1,31 @@
 /* Especificidad: 001*/
-body {
+  body {
     font-family: Tahoma, sans-serif;
     color: #ffffff;
     background-color:rgb(0, 0, 0);
-    }
+  }
 
-  img, video, audio {
+  /*001*/img, video, audio {
     max-width: 100%; 
     height: auto;
   }
 
-  img {
-    margin-left: 20%;
-    margin-right: 20%;
+  /*002*/p > img {
+    max-width: 8%;
+    margin-right: 1%;
+    height: auto;
+    float: left;
   }
-  a:link {
+
+  /*011*/a:link {
     color: yellow;
   }
 
-  a:visited {
+  /*011*/a:visited {
     color: red;
   } 
 
-  table {
+  /*001*/table {
     max-width: 100%;
     border: 1px solid rgb(255, 255, 255);
   }
@@ -67,9 +70,14 @@ body {
 }
 
 
-footer > img{
+/*002*/footer > img{
+  margin-top: 4%;
   margin-left: 0;
   margin-right: 0;
   max-width: 100%; 
   height: auto;
+}
+
+/*001*/fieldset{
+  margin-bottom: 3%;
 }
